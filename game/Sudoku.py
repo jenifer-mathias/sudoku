@@ -72,7 +72,7 @@ def generateGrid():
     grid[6][5] = random.randint(1, 9)
     filledGrid = grid                                 # Guarda a nova matriz preenchida (randômicos e 0)
     searchSolution(filledGrid, 0, 0)                  # Verifica a solução utilizando a matriz
-    formatGride(filledGrid)                           # Imprime a matriz prenchida e com a formatação correta
+    formatGride(filledGrid)                           # Imprime a matriz prenchida com a formatação correta
 
 
 generateGrid()
